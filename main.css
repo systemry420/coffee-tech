@@ -145,9 +145,9 @@ article.item-tile {
 /* --- End orders sectoin --- */
 
 #about img {
-    margin: 1em;
-    width: 90%;
-    height: 80%;
+    margin: 1em auto;
+    width: 80%;
+    height: 70%;
 }
 
 #service {
@@ -155,8 +155,8 @@ article.item-tile {
 }
 
 #service article {
-    margin: 0 auto;
-    width: 25%;
+    margin: 2% auto;
+    width: 22%;
     text-align: center;
 }
 
@@ -177,6 +177,10 @@ article.item-tile {
     color: indigo
 }
 
+.fa-leaf {
+    color: darkgreen;
+}
+
 #gallery {
     background-color: #16425B;
 }
@@ -193,9 +197,10 @@ footer article h3 {
 }
 
 footer article {
-    width: 24%;
-    padding: 1em;
-    margin: 1em auto;
+    width: 20%;
+    /* padding: 1em; */
+    margin: 2% auto;
+    text-align: center;
 }
 
 footer article p {
