@@ -5,11 +5,30 @@
 
 header, main, footer {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1em;
 }
 
 section {
-    min-height: 450px;
+    min-height: 400px;
     padding: 5em;
+}
+
+section p {
+    margin-bottom: 2em;
+}
+
+h2 {
+    padding: 22px 0;
+    font-size: 2em;
+}
+
+.lite {
+    background-color: #ececec;
+}
+
+.dark {
+    background-color: #522920;
+    color: #fff;
 }
 
 /* --- General style end --- */
@@ -27,7 +46,7 @@ nav ul {
     list-style-type: none;
     color: #522920;
     margin-top: 1.2em;
-    font-size: 1.2em;
+    font-size: 1.4em;
     font-weight: 700;
 }
 
@@ -46,12 +65,45 @@ nav ul li {
 }
 /* --- End Header --- */
 
-.lite {
-    background-color: #ececec;
+#order {
+    background-color: #ad2102;
+    text-align: center;
+    color: #ececec;
 }
 
-.dark {
-    background-color: #522920;
+#tastes {
+    margin-top: 1.5em;
+    display: flex;
+}
+
+#tastes img {
+    margin: 0 1em;
+    width: 60%;
+    height: 70%;
+}
+
+#about img {
+    margin: 1em;
+    width: 90%;
+    height: 80%;
+}
+
+#service {
+    display: flex;
+}
+
+#service article {
+    margin: 0 auto;
+    width: 25%;
+    text-align: center;
+}
+
+#service article i{
+    font-size: 3em;
+    padding: 10px;
+}
+
+#service article {
 }
 
 footer {
