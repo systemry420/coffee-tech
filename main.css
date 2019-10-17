@@ -27,7 +27,7 @@ h2 {
 }
 
 .dark {
-    background-color: #522920;
+    /* background-color: #4e0e00; */
     color: #fff;
 }
 
@@ -66,21 +66,56 @@ nav ul li {
 /* --- End Header --- */
 
 #order {
-    background-color: #ad2102;
     text-align: center;
+    background-color: #5C80BC;
     color: #ececec;
+    box-shadow: 10px 10px 5px #aaa initial;
 }
 
-#tastes {
-    margin-top: 1.5em;
-    display: flex;
-}
-
-#tastes img {
+#items {
+    background-color: #43151e;
     margin: 0 1em;
+    border-radius: 15px;
+    justify-content: center;
+    justify-items: center;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item-body img {
     width: 60%;
     height: 70%;
 }
+
+article.item-tile {
+    width: 20%;
+    height: 20%;
+    border-radius: 8px;
+    margin: 3vh;
+    text-align: center;
+    overflow: hidden;
+    background: #E9EDDE;
+    color: #4D5061;
+    border: 1px solid #aaa;
+}
+
+.item-heading {
+    height: auto;
+    padding: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.item-body img {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+    height: 200px;
+    border-radius: 1%;
+}
+
+/* --- End orders sectoin --- */
 
 #about img {
     margin: 1em;
@@ -106,9 +141,14 @@ nav ul li {
 #service article {
 }
 
+#gallery {
+    background-color: #581000;
+}
+
 /* --- Start footer --- */
 footer {
     height: 250px;
+    background-color: #240700;
     display: flex;
 }
 
