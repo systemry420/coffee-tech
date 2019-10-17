@@ -35,6 +35,14 @@ h2 {
 
 /* --- Header style --- */
 
+#logo {
+    width: 20%;
+    height: 20%;
+    position: relative;
+    padding-top: 2%;
+    left: 15%;
+}
+
 header {
     height: 80vh;
     background-image: url("images/hero.jpg");
@@ -43,7 +51,7 @@ header {
 }
 
 nav {
-    height: 100px;
+    height: 80px;
     float: right;
 }
 
@@ -62,7 +70,7 @@ nav ul li {
 }
 
 #welcome {
-    padding: 30vh;
+    padding: 13vh;
     /* display: inline-flex; */
     height: 100%;
 }
@@ -72,12 +80,13 @@ nav ul li {
     background-color: rgba(20, 40, 60, 0.8);
     border-radius: 10px;
     color: #eee;
-    margin: 3em 0;
+    margin-bottom: 3em;
     text-align: center;
 }
 
 /* --- End Header --- */
 
+/* --- start order section --- */
 #order {
     text-align: center;
     background-color: #5C80BC;
@@ -156,7 +165,16 @@ article.item-tile {
     padding: 10px;
 }
 
-#service article {
+.fa-mug-hot {
+    color: goldenrod
+}
+
+.fa-heart {
+    color: brown;
+}
+
+.fa-clock {
+    color: indigo
 }
 
 #gallery {
