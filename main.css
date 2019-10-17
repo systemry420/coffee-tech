@@ -18,7 +18,7 @@ section p {
 }
 
 h2 {
-    padding: 22px 0;
+    padding: 8px 0;
     font-size: 2em;
 }
 
@@ -34,6 +34,13 @@ h2 {
 /* --- General style end --- */
 
 /* --- Header style --- */
+
+header {
+    height: 80vh;
+    background-image: url("images/hero.jpg");
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
 
 nav {
     height: 100px;
@@ -55,25 +62,36 @@ nav ul li {
 }
 
 #welcome {
-    padding: 8em;
-    /* display: flex; */
+    padding: 30vh;
+    /* display: inline-flex; */
+    height: 100%;
 }
 
-#welcome-text {
-    width: 80%;
-    
+#welcome #welcome-text{
+    padding: 3em 2em;
+    background-color: rgba(20, 40, 60, 0.8);
+    border-radius: 10px;
+    color: #eee;
+    margin: 3em 0;
+    text-align: center;
 }
+
 /* --- End Header --- */
 
 #order {
     text-align: center;
     background-color: #5C80BC;
-    color: #ececec;
     box-shadow: 10px 10px 5px #aaa initial;
 }
 
+#order p {
+    margin: auto;
+    padding: 3em 2em;
+    width: 75%;
+}
+
 #items {
-    background-color: #43151e;
+    background-color: rgba(110, 22, 14, 0.904);
     margin: 0 1em;
     border-radius: 15px;
     justify-content: center;
@@ -84,7 +102,7 @@ nav ul li {
 }
 
 .item-body img {
-    width: 60%;
+    width: 100%;
     height: 70%;
 }
 
@@ -105,11 +123,11 @@ article.item-tile {
     padding: 20px;
     font-size: 1.5em;
     font-weight: bold;
+    opacity: 0.7;
+    background-color: #fff;
 }
 
 .item-body img {
-    display: inline-block;
-    vertical-align: middle;
     max-width: 100%;
     height: 200px;
     border-radius: 1%;
@@ -142,13 +160,13 @@ article.item-tile {
 }
 
 #gallery {
-    background-color: #581000;
+    background-color: #16425B;
 }
 
 /* --- Start footer --- */
 footer {
     height: 250px;
-    background-color: #240700;
+    background-color: #290800;
     display: flex;
 }
 
