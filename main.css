@@ -35,12 +35,19 @@ h2 {
 
 /* --- Header style --- */
 
-#logo {
-    width: 20%;
-    height: 20%;
+#logo-div {
+    width: 300px;
     position: relative;
-    padding-top: 2%;
-    left: 15%;
+    top: 2%;
+    left: 3%;
+}
+
+#logo {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 2%;
+    left: 0%;
 }
 
 header {
@@ -51,26 +58,43 @@ header {
 }
 
 nav {
-    height: 80px;
-    float: right;
+    height: 70px;
+    display: flex;
 }
 
 nav ul {
+    position: relative;
+    left: 20%;
     height: auto;
     display: flex;
     list-style-type: none;
-    color: #522920;
-    margin-top: 1.2em;
-    font-size: 1.4em;
+    font-size: 1.2em;
     font-weight: 700;
 }
 
 nav ul li {
-    margin-right: 80px;
+    width: 160px;
+    text-align: center;
+}
+
+nav ul li a {
+    font-size: 1em;
+    letter-spacing: 3px;
+    text-decoration: none;
+    display: inline-block;
+    color: #522920;
+    text-transform: uppercase;
+    margin: auto 0;
+    padding: 1em;
+}
+
+nav ul li:hover {
+    background-color: rgb(204, 204, 255);
+    transition: background-color 0.5s ease;
 }
 
 #welcome {
-    padding: 13vh;
+    padding: 10vh;
     /* display: inline-flex; */
     height: 100%;
 }
@@ -193,14 +217,15 @@ footer {
 }
 
 footer article h3 {
-    margin-bottom: 0.5em;
+    margin-bottom: 1em;
+    font-size: 1.5em;
 }
 
 footer article {
-    width: 20%;
-    /* padding: 1em; */
-    margin: 2% auto;
-    text-align: center;
+    width: 15%;
+    padding: 1em;
+    margin: 2em auto;
+    /* text-align: center; */
 }
 
 footer article p {
